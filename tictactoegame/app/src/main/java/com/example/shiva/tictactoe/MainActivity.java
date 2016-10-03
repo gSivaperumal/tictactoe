@@ -146,7 +146,7 @@ public class MainActivity extends Activity {
         mBoardButtons[location].setEnabled(false);
         mBoardButtons[location].setText(String.valueOf(player));
         if (player == mGame.HUMAN_PLAYER)
-            mBoardButtons[location].setTextColor(Color.GREEN);
+            mBoardButtons[location].setTextColor(Color.BLUE);
         else
             mBoardButtons[location].setTextColor(Color.RED);
     }
